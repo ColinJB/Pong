@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pong</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Ping-Pong</h1>
+      <h3>Come play Ping-Pong! Enter any number and I will return the string of numbers counting from 1 to your chosen number!!!</h3>
+      <p>A couple rules:</p>
+      <ul>
+        <li>Numbers divisible by 3 are replaced with "ping"</li>
+        <li>Numbers divisible by 5 are replaced with "pong"</li>
+        <li>Numbers divisible by 15 are replaced with "ping-pong"</li>
+      </ul>
+      <form id="input">
+        <div class="form-group">
+          <label for="input">Enter a number please:</label>
+          <input id="inputNum" type="text">
+        </div>
+      <button type="submit" class="btn btn-danger btn-lg btn block" name="button">Let's Play!</button>
+      </form>
+      <div class="output">
+        <p><span id="output"></span></p>
+      </div>
+    </div>
+  </body>
+</html>
